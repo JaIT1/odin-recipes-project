@@ -12,7 +12,12 @@ body {
     text-decoration: none;
     display: block;
     padding-left: 55px;
+    margin-bottom: 4px;
     
+}
+
+.one{
+    margin-top: 35px;
 }
 
 .cake, .toast, .salad{
