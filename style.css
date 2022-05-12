@@ -1,0 +1,95 @@
+*{
+    padding:0;
+}
+body {
+ background-color: rgb(231, 226, 226);
+ color:rgb(252, 249, 249);
+ margin:0;
+}
+
+.one, .two, .three {
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding-left: 55px;
+    
+}
+
+.cake, .toast, .salad{
+    height: auto;
+    width:325px;
+    margin:0;
+    padding-top: 60px;
+    padding-bottom: 300px;
+    float: left;
+    background-color:#565175;
+    border-top:solid 1px; color: #000000;
+    
+}
+
+h1{
+    padding:10px;
+    padding-left:40px;
+    background-color: #565175;
+    margin:0;
+    }
+
+p{
+    padding-top: 10px;
+}
+a{
+    color:#8160ce;
+}
+
+a:hover{
+    color: #000000;
+
+}
+
+.toast-nav, .salad-nav, .cake-nav{
+    font-size: 18px;
+    
+}
+
+.toast-nav li, .salad-nav li, .cake-nav li{
+    list-style-type: none;
+    padding-left: 600px;
+}
+
+.toast-nav a, .salad-nav a, .cake-nav a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.toast-nav a:hover, .salad-nav a:hover{
+    color:#052f72;
+}
+
+.content{
+    background-color: #56517591;
+    padding:30px;
+    margin-top:0px;
+    display:inline-block;
+    height: 900px;
+    border-top: solid 1px;
+    line-height: 1.6;
+    
+}
+
+.content p{
+    line-height: 2.0;
+
+}
+
+.summary{
+    line-height: 2.0;
+    font-size: 18px;
+    color: #565175;
+    text-align: center;
+}
+
+.sidenote{
+    padding-left: 900px;
+    font-size: 15px;
+    color: #8160ce;
+}
